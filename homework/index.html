@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+      <title>Tools</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+      <link rel="stylesheet" type="text/css" href='dist/style.css'>
+  </head>
+
+  <body>
+    <h1 class="title">Rock, paper, scissors</h1>
+    <div class="list">
+      <h2 class="head-list">Rules</h2>
+      <ol class="rule-list">
+        <li class="list-item">Scissors beats a paper.</li>
+        <li class="list-item">Paper beats rock.</li>
+        <li class="list-item">Rock beats scissors.</li>
+      </ol>
+      <p class="footer-list">We play up to 3 wins!</p>
+    </div>
+    <h2 class="heading">Let's play</h2>
+    <div class="btn-group">
+      <button class="rock btn">Rock</button>
+      <button class="paper btn">Paper</button>
+      <button class="scissors btn">Scissors</button>
+    </div>
+    <div class="result-board">
+      <div class="result-box">
+        <p class="result-title">User score</p>
+        <p class="user-score"></p>
+      </div>
+      <div class="result-board result"></div>
+      <div class="result-box">
+        <p class="result-title">Computer score</p>
+        <p class="computer-score"></p>
+      </div>
+    </div>
+    <a href="#" class="reset">Reset</a>
+    <script src='dist/bundle.js'></script>
+  </body>
+</html>

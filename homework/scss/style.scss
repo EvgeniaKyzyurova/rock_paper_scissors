@@ -1,0 +1,74 @@
+@import '_variables';
+.title{
+    color: $title;
+    text-align: center;
+}
+.list{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .head-list{
+        color: $head-list;
+    }
+    .list-item{
+        color: $list-item;
+        font-size: 18px;
+    }
+    .footer-list{
+        color: $head-list;
+    }
+}
+.heading{
+    color: $title;
+    text-align: center;
+}
+.btn-group{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .btn{
+        color: $btn;
+        background-color: $btn-bg;
+        border: none;
+        border-radius: 10px;
+        width: 130px;
+        height: 30px;
+        font-size: 18px;
+    }
+}
+.result-board{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .result-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .result-title{
+            color: $head-list;
+            font-size: 22px;
+            
+        }
+    }
+    
+}
+.result{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 30px;
+}
+.reset{
+    display: block;
+    color: $title;
+    text-align: center;
+    font-size: 18px;
+}
+.winner{
+    color: $winner;
+}
+.looser{
+    color: $looser;
+}
